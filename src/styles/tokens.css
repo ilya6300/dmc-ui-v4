@@ -1,0 +1,15 @@
+:root {
+  --main-blue-1: #2196f3;
+  --mast-blue: #236192;
+  --mast-yellow: #f0b323;
+  --main-gray: #717477ad;
+  --myGrey: rgb(63 68 73 / 83%);
+  --main-bl-gr: #366183;
+  --main-lg-bl: rgb(35 37 40);
+  --main-green: #4fc3a1;
+  --modal_grey: rgb(99 99 99 / 81%);
+  --title_grey: #727272;
+  --error: #df2727;
+  --main_blu_blk: linear-gradient(var(--mast-blue), var(--main-lg-bl) 50%);
+  --lgt-grey-border: 1px solid #0000001f;
+}

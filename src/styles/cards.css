@@ -1,0 +1,71 @@
+.dmc-v4 .card,
+.company-card-v4 .card {
+  background-color: var(--cc-v4-bg-card);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--cc-v4-card-shadow);
+  border: var(--cc-v4-border-light);
+}
+
+.dmc-v4 .dash-card,
+.company-card-v4 .dash-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.dmc-v4 .dash-card-header,
+.company-card-v4 .dash-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.dmc-v4 .dash-card-title,
+.company-card-v4 .dash-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--mast-blue);
+}
+
+.dmc-v4 .req-item,
+.company-card-v4 .req-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dmc-v4 .req-label,
+.company-card-v4 .req-label {
+  font-size: 12px;
+  color: var(--cc-v4-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.dmc-v4 .req-value,
+.company-card-v4 .req-value {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--cc-v4-text-main);
+}
+
+.dmc-v4 .req-value-muted,
+.company-card-v4 .req-value-muted {
+  color: var(--cc-v4-text-muted);
+  font-weight: 400;
+}
+
+.dmc-v4 .flex_center.tabs_lgt_grey_border,
+.company-card-v4 .flex_center.tabs_lgt_grey_border {
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  border: var(--lgt-grey-border);
+  border-radius: 12px;
+  background: var(--cc-v4-bg-card);
+}

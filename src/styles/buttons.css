@@ -1,0 +1,49 @@
+.dmc-v4 .btn-primary-v4,
+.company-card-v4 .btn-primary-v4 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: var(--main-blue-1);
+  color: #fff;
+  transition: background-color 0.2s ease;
+  min-width: 87px;
+  font-family: inherit;
+}
+
+.dmc-v4 .btn-primary-v4:hover,
+.company-card-v4 .btn-primary-v4:hover {
+  background-color: #1976d2;
+}
+
+.dmc-v4 .btn-outline-v4,
+.company-card-v4 .btn-outline-v4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  color: var(--cc-v4-text-main);
+  font-family: inherit;
+}
+
+.dmc-v4 .btn-outline-v4:hover,
+.company-card-v4 .btn-outline-v4:hover {
+  background-color: #f8fafc;
+  border-color: #94a3b8;
+}
+
+.dmc-v4 .sub-status-action-btn,
+.company-card-v4 .sub-status-action-btn {
+  min-width: auto;
+}
