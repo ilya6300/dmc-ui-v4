@@ -15,7 +15,11 @@ export default defineConfig({
     port: 5174,
   },
   build: {
-    outDir: resolve(__dirname, "docs/dist"),
-    emptyOutDir: true,
+    outDir: resolve(__dirname, "dist"),
+    /** не очищать dist — там же лежат index.js и dmc-v4.css после library build */
+    emptyOutDir: false,
+  },
+  preview: {
+    port: 5174,
   },
 });

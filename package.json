@@ -23,9 +23,10 @@
     "dist/*.css"
   ],
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && vite build --config vite.docs.config.js",
     "docs": "vite --config vite.docs.config.js",
     "docs:build": "vite build --config vite.docs.config.js",
+    "docs:preview": "vite preview --config vite.docs.config.js",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {

@@ -42,9 +42,10 @@ import {
 
 | Команда | Описание |
 |---------|----------|
-| `npm run build` | Сборка `dist/index.js` и `dist/dmc-v4.css` |
-| `npm run docs` | Каталог компонентов (http://localhost:5174) |
-| `npm run docs:build` | Статическая сборка каталога в `docs/dist` |
+| `npm run build` | Библиотека + каталог в `dist/` (`index.js`, `dmc-v4.css`, `index.html`, `assets/`, `previews/`) |
+| `npm run docs` | Каталог в dev-режиме (http://localhost:5174) |
+| `npm run docs:build` | Только статика каталога в `dist/` (после `vite build` или вместе с `npm run build`) |
+| `npm run docs:preview` | Просмотр собранного каталога из `dist/` |
 
 ## Git remote
 
