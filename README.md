@@ -18,6 +18,10 @@
 npm install
 ```
 
+При установке из git npm клонирует репозиторий, ставит dev-зависимости и выполняет `prepare` (`npm run build`), поэтому в `node_modules/@dmc/ui-v4/dist/` появляются `index.js` и `dmc-v4.css`. В git `dist/` не коммитится.
+
+`npm run docs` есть только в репозитории **dmc-ui-v4** (локальный клон или `C:\Frontend\dmc-ui-v4`), не в проекте-потребителе (`lid-bot`). Собранный каталог после установки: файлы `dist/index.html` и `dist/assets/` внутри пакета.
+
 ### Подключение стилей и компонентов
 
 ```js

@@ -5,6 +5,10 @@
   "type": "module",
   "files": [
     "dist",
+    "src",
+    "docs",
+    "vite.config.js",
+    "vite.docs.config.js",
     "README.md"
   ],
   "main": "./dist/index.js",
@@ -27,6 +31,7 @@
     "docs": "vite --config vite.docs.config.js",
     "docs:build": "vite build --config vite.docs.config.js",
     "docs:preview": "vite preview --config vite.docs.config.js",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
