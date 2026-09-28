@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://your-git.example.com/dmc-ui-v4.git"
+    "url": "git+https://github.com/ilya6300/dmc-ui-v4.git"
   },
   "license": "UNLICENSED",
   "private": true

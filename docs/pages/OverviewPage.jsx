@@ -14,7 +14,7 @@ export default function OverviewPage() {
         <pre className="catalog-code">
 {`// package.json
 "dependencies": {
-  "@dmc/ui-v4": "git+https://your-git.example.com/dmc-ui-v4.git#v4.1.0"
+  "@dmc/ui-v4": "git+https://github.com/ilya6300/dmc-ui-v4.git#v4.1.0"
 }
 
 // точка входа приложения

@@ -10,7 +10,7 @@
 
 ```json
 "dependencies": {
-  "@dmc/ui-v4": "git+https://your-git.example.com/dmc-ui-v4.git#v4.1.0"
+  "@dmc/ui-v4": "git+https://github.com/ilya6300/dmc-ui-v4.git#v4.1.0"
 }
 ```
 
@@ -54,7 +54,7 @@ cd dmc-ui-v4
 git init
 git add .
 git commit -m "feat: initial dmc-ui-v4 library"
-git remote add origin https://your-git.example.com/dmc-ui-v4.git
+git remote add origin https://github.com/ilya6300/dmc-ui-v4.git
 git push -u origin main
 git tag v4.1.0
 git push origin v4.1.0
